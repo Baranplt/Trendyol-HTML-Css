@@ -1,0 +1,251 @@
+.contanier {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-top ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.header-top ul li a {
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+
+.logo {
+    width: 146px;
+    padding: 5px;
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.header-b {
+    display: flex;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    margin: 12px 15px 0 80px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border: none;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right .item {
+    background-color: white;
+    padding: 13px;
+    margin: 12px;
+    border-radius: 5px;
+
+}
+
+.header-right .item a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-right .item a:hover {
+    color: red;
+}
+
+.header-nav {
+    margin-top: 10px;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-nav ul a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 5px 10px;
+
+}
+
+.header-nav ul a:hover {
+    border-bottom: 2px solid red;
+}
+
+.brd {
+    margin: 7px;
+    border-bottom: 1px solid gray;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-box {
+    width: 240px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+.center-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.center-box:hover {
+    box-shadow: 1px 1px 5px 1px;
+}
+
+.center-title {
+    margin: 30px 0 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center-box-img img {
+    width: 100%;
+
+}
+
+.center-box-txt {
+    font-size: 15px;
+
+}
+
+.center-box-buy {
+    margin-top: 5px;
+    color: #F27A1A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-marka {
+    display: flex;
+}
+
+.footer-marka h1 {
+    font-size: x-large;
+    margin: 15px 30px;
+}
+
+.footer-marka-left {
+    height: 500px;
+    display: flex;
+}
+
+.footer-marka-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-marka-left ul li {
+    margin: 15px 50px 15px 30px;
+}
+
+.footer-marka-right {
+    height: 500px;
+    display: flex;
+}
+
+.footer-marka-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-marka ul li :hover {
+    border-bottom: 1px solid red;
+}
+
+.footer-marka-right ul li {
+    margin: 15px 50px 15px 30px;
+}
+
+.footer-marka-head {
+    display: flex;
+}
+
+.footer-marka-head h1 {
+    margin: 10px 310px 10px 0;
+    font-size: 20px;
+}
+
+.footer-black {
+    background-color: #000000;
+}
+
+.black-trnd {
+    display: flex;
+}
+
+.black-trnd ul li {
+
+    margin: 20px;
+}
+
+.black-trnd ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 20px 50px;
+}
+
+.black-trnd ul li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.black-trnd ul h1 {
+    color: white;
+    margin: 30px 70px;
+    font-size: x-large;
+}
+
+.footer-gray {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2D2D;
+
+}
+
+.footer-gray-right ul {
+    display: flex;
+
+}
+
+.footer-gray-right ul li {
+    margin: 0 10px;
+
+    padding: 5px;
+}
+
+.footer-gray-right ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-gray-left h1 {
+    color: white;
+    padding: 5px;
+}
